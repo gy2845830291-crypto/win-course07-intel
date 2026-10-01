@@ -1,0 +1,24 @@
+RVA 0019B931  call      0x7ff7378c9deb
+RVA 0019B936  jae       0x7ff73772763d
+RVA 0019B93C  jg        0x7ff737724097
+RVA 0019B942  call      0x7ff7378b7d5b
+RVA 0019B947  and       ebx, 0x99ac0b06
+RVA 0019B94D  shr       bl, 0x18
+RVA 0019B950  mov       rbx, qword ptr [rsp]
+RVA 0019B955  push      qword ptr [rsp + 8]
+RVA 0019B959  popfq     
+RVA 0019B95A  lea       rsp, [rsp + 0x18]
+RVA 0019B95F  call      0x7ff737b1abdd
+RVA 0019B964  pushfq    
+RVA 0019B965  add       qword ptr [rsp + 8], -0x404ca82c
+RVA 0019B96E  mov       qword ptr [rsp + 8], 0x6ff8ea98
+RVA 0019B977  push      qword ptr [rsp]
+RVA 0019B97B  popfq     
+RVA 0019B97C  lea       rsp, [rsp + 8]
+RVA 0019B981  call      0x7ff737b1abdd
+RVA 0019B986  xor       al, byte ptr [rcx]
+RVA 0019B988  retf      
+RVA 0019B989  cmp       byte ptr [rsi - 0x524c4f70], ah
+RVA 0019B98F  add       byte ptr es:[rax + 0x227aadb3], dh
+RVA 0019B997  and       byte ptr [rax + 0x1256adb3], dh
+RVA 0019B99D  or        byte ptr [rax - 0x3145524d], dh

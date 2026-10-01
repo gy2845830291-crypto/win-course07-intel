@@ -1,0 +1,7 @@
+RVA 0000D8A0  jmp       0x7ff737be3ade
+RVA 0000D8A5  sub       al, 0xe7
+RVA 0000D8A7  xchg      dword ptr [rbp + 0x54], eax
+RVA 0000D8AA  sbb       ah, byte ptr [rax + rsi*2 + 0xc]
+RVA 0000D8AE  mov       spl, 0xb
+RVA 0000D8B1  mov       ah, 0x70
+RVA 0000D8B3  or        al, 0x46

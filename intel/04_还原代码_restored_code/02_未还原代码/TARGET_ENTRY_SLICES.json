@@ -1,0 +1,20 @@
+[
+  {
+    "rva": "0xfb14",
+    "bytes": 512,
+    "sha256": "bf823b9a75645b1c6c01135d4c904440d3573ea371de66168209363f80f253a2",
+    "instructions_before_invalid": 15
+  },
+  {
+    "rva": "0x19b931",
+    "bytes": 512,
+    "sha256": "a9f9bfaca5f569d1478b6ffad8c4ff3a33282fc620e24c2f269c4914d85a6d64",
+    "instructions_before_invalid": 24
+  },
+  {
+    "rva": "0x185f49",
+    "bytes": 512,
+    "sha256": "fc04cce147a214092c89d2da5823ed8982180243093c153033373c04eaec1995",
+    "instructions_before_invalid": 45
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_rebuilt_overlay.bin",
+    "size": 25948968,
+    "md5": "b0966f8280ed928f2b280e2763c825bb",
+    "create_suspended": false,
+    "winerror": 740,
+    "sec_image": true,
+    "sec_image_winerror": 0
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_rebuilt_hist896_overlay.bin",
+    "size": 25948968,
+    "md5": "35d78125012c7209fbe41667e29f8545",
+    "create_suspended": false,
+    "winerror": 193,
+    "sec_image": false,
+    "sec_image_winerror": 193
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_forceov_snap859.bin",
+    "size": 25948968,
+    "md5": "9efa76b514c90c607d448226e1c77de0",
+    "create_suspended": false,
+    "winerror": 740,
+    "sec_image": true,
+    "sec_image_winerror": 0
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_forceov_hist896.bin",
+    "size": 25948968,
+    "md5": "dccc2aad89a0a1a57f370c48e84b04a3",
+    "create_suspended": false,
+    "winerror": 193,
+    "sec_image": false,
+    "sec_image_winerror": 193
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_forceov_hist_plus_hace.bin",
+    "size": 25948968,
+    "md5": "60aae40c5adce4c1545700b0681efd6d",
+    "create_suspended": false,
+    "winerror": 193,
+    "sec_image": false,
+    "sec_image_winerror": 193
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_loadcheck_asInvoker.exe",
+    "size": 25948968,
+    "md5": "6c58ee0eb128f83359264933a395bfb8",
+    "create_suspended": true,
+    "winerror": 0,
+    "sec_image": true,
+    "sec_image_winerror": 0,
+    "pid": 31616,
+    "tid": 16180
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_hist_text_denser_asInvoker.exe",
+    "size": 25948968,
+    "md5": "94a551664726dd48e5f234778187e06e",
+    "create_suspended": true,
+    "winerror": 0,
+    "sec_image": true,
+    "sec_image_winerror": 0,
+    "pid": 19308,
+    "tid": 46732
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_hist_exec_denser_asInvoker.exe",
+    "size": 25948968,
+    "md5": "20be81197a97203640bc1ba914c91ef2",
+    "create_suspended": true,
+    "winerror": 0,
+    "sec_image": true,
+    "sec_image_winerror": 0,
+    "pid": 16868,
+    "tid": 10704
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_hist_exec_allchanged_asInvoker.exe",
+    "size": 25948968,
+    "md5": "ba8afee889dfae8f5b68945db2eaa403",
+    "create_suspended": true,
+    "winerror": 0,
+    "sec_image": true,
+    "sec_image_winerror": 0,
+    "pid": 32416,
+    "tid": 37780
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_hist_h4000_text_denser_asInvoker.exe",
+    "size": 25948968,
+    "md5": "f436b47f9b1b7115a9f9429de34bc9b4",
+    "create_suspended": true,
+    "winerror": 0,
+    "sec_image": true,
+    "sec_image_winerror": 0,
+    "pid": 25540,
+    "tid": 16964
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_hist_h4000_exec_denser_asInvoker.exe",
+    "size": 25948968,
+    "md5": "f436b47f9b1b7115a9f9429de34bc9b4",
+    "create_suspended": true,
+    "winerror": 0,
+    "sec_image": true,
+    "sec_image_winerror": 0,
+    "pid": 32660,
+    "tid": 41808
+  },
+  {
+    "file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\exe-exe-123-exe-exe-exe\\outputs\\ace_dens102\\SAMPLE_dens102_hist_h4000_exec_allchanged_asInvoker.exe",
+    "size": 25948968,
+    "md5": "30d9022c5a8e418c227c7543d5b486ed",
+    "create_suspended": true,
+    "winerror": 0,
+    "sec_image": true,
+    "sec_image_winerror": 0,
+    "pid": 25164,
+    "tid": 42692
+  }
+]

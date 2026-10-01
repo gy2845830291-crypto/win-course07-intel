@@ -1,0 +1,9 @@
+RVA 0019B000  mov       esp, 0x29c9c228
+RVA 0019B005  loopne    0x7ff7378aafc3
+RVA 0019B007  sub       dl, al
+RVA 0019B009  sahf      
+RVA 0019B00A  not       byte ptr [rax - 0x393dd744]
+RVA 0019B010  rcr       dword ptr [rax], 0xbc
+RVA 0019B013  sub       dl, al
+RVA 0019B015  mov       byte ptr [rcx], 0xb8
+RVA 0019B018  mov       esp, 0xd6cec228

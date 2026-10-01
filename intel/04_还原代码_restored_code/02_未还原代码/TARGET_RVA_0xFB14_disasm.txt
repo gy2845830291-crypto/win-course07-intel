@@ -1,0 +1,15 @@
+RVA 0000FB14  call      0x7ff7378d02e9
+RVA 0000FB19  call      0x7ff73787f1e9
+RVA 0000FB1E  mov       qword ptr [rsp + 8], 0xffffffff9707c57c
+RVA 0000FB27  lea       rsp, [rsp + 8]
+RVA 0000FB2C  call      0x7ff737aec2e1
+RVA 0000FB31  add       cl, bl
+RVA 0000FB33  retf      0xb2a
+RVA 0000FB36  sbb       eax, 0x5f18671d
+RVA 0000FB3B  and       bh, cl
+RVA 0000FB3D  scasd     eax, dword ptr [rdi]
+RVA 0000FB3E  cmp       byte ptr [rax + 0x5f], cl
+RVA 0000FB41  and       bh, cl
+RVA 0000FB43  call      0x7ff730945b01
+RVA 0000FB49  outsb     dx, byte ptr [rsi]
+RVA 0000FB4A  lodsd     eax, dword ptr [rsi]

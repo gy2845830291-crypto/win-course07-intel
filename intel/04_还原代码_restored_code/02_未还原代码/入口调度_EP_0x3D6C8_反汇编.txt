@@ -1,0 +1,134 @@
+RVA 0003D6C8  call      0x7ff73771fb14
+RVA 0003D6CD  call      0x7ff7378ab931
+RVA 0003D6D2  call      0x7ff737895f49
+RVA 0003D6D7  fisub     dword ptr [rax + 0x3f]
+RVA 0003D6DA  int3      
+RVA 0003D6DB  int3      
+RVA 0003D6DC  push      rbx
+RVA 0003D6DE  sub       rsp, 0x20
+RVA 0003D6E2  mov       rbx, rcx
+RVA 0003D6E5  xor       ecx, ecx
+RVA 0003D6E7  call      qword ptr [rip + 0x1cafb]
+RVA 0003D6ED  mov       rcx, rbx
+RVA 0003D6F0  call      qword ptr [rip + 0x1caea]
+RVA 0003D6F6  call      qword ptr [rip + 0x1c954]
+RVA 0003D6FC  mov       rcx, rax
+RVA 0003D6FF  mov       edx, 0xc0000409
+RVA 0003D704  add       rsp, 0x20
+RVA 0003D708  pop       rbx
+RVA 0003D709  jmp       qword ptr [rip + 0x1cae0]
+RVA 0003D710  mov       qword ptr [rsp + 8], rcx
+RVA 0003D715  sub       rsp, 0x38
+RVA 0003D719  mov       ecx, 0x17
+RVA 0003D71E  call      qword ptr [rip + 0x1cad4]
+RVA 0003D724  test      eax, eax
+RVA 0003D726  je        0x7ff73774d72f
+RVA 0003D728  xor       ecx, ecx
+RVA 0003D72A  nop       
+RVA 0003D72B  nop       
+RVA 0003D72C  nop       
+RVA 0003D72D  nop       
+RVA 0003D72E  nop       
+RVA 0003D72F  lea       rcx, [rip + 0x4d0da]
+RVA 0003D736  call      0x7ff73774d7e4
+RVA 0003D73B  mov       rax, qword ptr [rsp + 0x38]
+RVA 0003D740  mov       qword ptr [rip + 0x4d1c1], rax
+RVA 0003D747  lea       rax, [rsp + 0x38]
+RVA 0003D74C  add       rax, 8
+RVA 0003D750  mov       qword ptr [rip + 0x4d151], rax
+RVA 0003D757  mov       rax, qword ptr [rip + 0x4d1aa]
+RVA 0003D75E  mov       qword ptr [rip + 0x4d01b], rax
+RVA 0003D765  mov       rax, qword ptr [rsp + 0x40]
+RVA 0003D76A  mov       qword ptr [rip + 0x4d11f], rax
+RVA 0003D771  mov       dword ptr [rip + 0x4cff5], 0xc0000409
+RVA 0003D77B  mov       dword ptr [rip + 0x4cfef], 1
+RVA 0003D785  mov       dword ptr [rip + 0x4cff9], 1
+RVA 0003D78F  mov       eax, 8
+RVA 0003D794  imul      rax, rax, 0
+RVA 0003D798  lea       rcx, [rip + 0x4cff1]
+RVA 0003D79F  mov       qword ptr [rcx + rax], 2
+RVA 0003D7A7  mov       eax, 8
+RVA 0003D7AC  imul      rax, rax, 0
+RVA 0003D7B0  mov       rcx, qword ptr [rip + 0x4a889]
+RVA 0003D7B7  mov       qword ptr [rsp + rax + 0x20], rcx
+RVA 0003D7BC  mov       eax, 8
+RVA 0003D7C1  imul      rax, rax, 1
+RVA 0003D7C5  mov       rcx, qword ptr [rip + 0x4a8b4]
+RVA 0003D7CC  mov       qword ptr [rsp + rax + 0x20], rcx
+RVA 0003D7D1  lea       rcx, [rip + 0x20ec0]
+RVA 0003D7D8  call      0x7ff73774d6dc
+RVA 0003D7DD  nop       
+RVA 0003D7DE  add       rsp, 0x38
+RVA 0003D7E2  ret       
+RVA 0003D7E3  int3      
+RVA 0003D7E4  push      rbx
+RVA 0003D7E6  push      rsi
+RVA 0003D7E7  push      rdi
+RVA 0003D7E8  sub       rsp, 0x40
+RVA 0003D7EC  mov       rbx, rcx
+RVA 0003D7EF  call      qword ptr [rip + 0x1c9d3]
+RVA 0003D7F5  mov       rsi, qword ptr [rbx + 0xf8]
+RVA 0003D7FC  xor       edi, edi
+RVA 0003D7FE  xor       r8d, r8d
+RVA 0003D801  lea       rdx, [rsp + 0x60]
+RVA 0003D806  mov       rcx, rsi
+RVA 0003D809  call      qword ptr [rip + 0x1c9c1]
+RVA 0003D80F  test      rax, rax
+RVA 0003D812  je        0x7ff73774d84d
+RVA 0003D814  and       qword ptr [rsp + 0x38], 0
+RVA 0003D81A  lea       rcx, [rsp + 0x68]
+RVA 0003D81F  mov       rdx, qword ptr [rsp + 0x60]
+RVA 0003D824  mov       r9, rax
+RVA 0003D827  mov       qword ptr [rsp + 0x30], rcx
+RVA 0003D82C  mov       r8, rsi
+RVA 0003D82F  lea       rcx, [rsp + 0x70]
+RVA 0003D834  mov       qword ptr [rsp + 0x28], rcx
+RVA 0003D839  xor       ecx, ecx
+RVA 0003D83B  mov       qword ptr [rsp + 0x20], rbx
+RVA 0003D840  call      qword ptr [rip + 0x1c992]
+RVA 0003D846  inc       edi
+RVA 0003D848  cmp       edi, 2
+RVA 0003D84B  jl        0x7ff73774d7fe
+RVA 0003D84D  add       rsp, 0x40
+RVA 0003D851  pop       rdi
+RVA 0003D852  pop       rsi
+RVA 0003D853  pop       rbx
+RVA 0003D854  ret       
+RVA 0003D855  int3      
+RVA 0003D856  int3      
+RVA 0003D857  int3      
+RVA 0003D858  sub       rsp, 0x28
+RVA 0003D85C  mov       r8, qword ptr [r9 + 0x38]
+RVA 0003D860  mov       rcx, rdx
+RVA 0003D863  mov       rdx, r9
+RVA 0003D866  call      0x7ff73774d878
+RVA 0003D86B  mov       eax, 1
+RVA 0003D870  add       rsp, 0x28
+RVA 0003D874  ret       
+RVA 0003D875  int3      
+RVA 0003D876  int3      
+RVA 0003D877  int3      
+RVA 0003D878  push      rbx
+RVA 0003D87A  mov       r11d, dword ptr [r8]
+RVA 0003D87D  mov       rbx, rdx
+RVA 0003D880  and       r11d, 0xfffffff8
+RVA 0003D884  mov       r9, rcx
+RVA 0003D887  test      byte ptr [r8], 4
+RVA 0003D88B  mov       r10, rcx
+RVA 0003D88E  je        0x7ff73774d8a3
+RVA 0003D890  mov       eax, dword ptr [r8 + 8]
+RVA 0003D894  movsxd    r10, dword ptr [r8 + 4]
+RVA 0003D898  neg       eax
+RVA 0003D89A  add       r10, rcx
+RVA 0003D89D  movsxd    rcx, eax
+RVA 0003D8A0  and       r10, rcx
+RVA 0003D8A3  movsxd    rax, r11d
+RVA 0003D8A6  mov       rdx, qword ptr [rax + r10]
+RVA 0003D8AA  mov       rax, qword ptr [rbx + 0x10]
+RVA 0003D8AE  mov       ecx, dword ptr [rax + 8]
+RVA 0003D8B1  mov       rax, qword ptr [rbx + 8]
+RVA 0003D8B5  test      byte ptr [rcx + rax + 3], 0xf
+RVA 0003D8BA  je        0x7ff73774d8c7
+RVA 0003D8BC  movzx     eax, byte ptr [rcx + rax + 3]
+RVA 0003D8C1  and       eax, 0xfffffff0
+RVA 0003D8C4  add       r9, rax

@@ -1,0 +1,58 @@
+{
+  "source_pe": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-01\\new-chat-3\\outputs\\continued_thread_01a058ea_dens102\\SAMPLE_dens102_hist_h4000_text_denser_asInvoker.exe",
+  "regions": [
+    {
+      "name": "入口调度_EP_0x3D6C8",
+      "rva": 251592,
+      "size": 512,
+      "state": "部分还原",
+      "reason": "入口三次调用已识别，后两处目标仍为运行时自修改/VM代码",
+      "binary": "入口调度_EP_0x3D6C8.bin",
+      "disassembly": "入口调度_EP_0x3D6C8_反汇编.txt",
+      "sha256": "4a4d667e5a05f3fe10f6263e08d5fee013f1eb328e429c8c271ae72694f56926",
+      "bytes": 512,
+      "decoded_instructions": 134
+    },
+    {
+      "name": "VM函数_0xD8A0_0xFDD3",
+      "rva": 55456,
+      "size": 9523,
+      "state": "未语义还原",
+      "reason": "包含0xFB14调用点；函数体已捕获但控制流高度虚拟化",
+      "binary": "VM函数_0xD8A0_0xFDD3.bin",
+      "disassembly": "VM函数_0xD8A0_0xFDD3_反汇编.txt",
+      "sha256": "5a8b0115f2d010fcca66d1bb6ca47c0cfef34866f11b5ffb17d1bed705d63f45",
+      "bytes": 9523,
+      "decoded_instructions": 7
+    },
+    {
+      "name": "Ace核心页_0x19B000",
+      "rva": 1683456,
+      "size": 8192,
+      "state": "未还原",
+      "reason": "0x19B931入口仍为Ace虚拟化指令链",
+      "binary": "Ace核心页_0x19B000.bin",
+      "disassembly": "Ace核心页_0x19B000_反汇编.txt",
+      "sha256": "da66d81deee69cf234d5349042c59e4c773626a7c2f42ea5c1340f359ad512d0",
+      "bytes": 8192,
+      "decoded_instructions": 9
+    },
+    {
+      "name": "不透明执行页_0x185000",
+      "rva": 1593344,
+      "size": 8192,
+      "state": "未还原",
+      "reason": "0x185F49使用栈/返回地址重写与opaque arithmetic",
+      "binary": "不透明执行页_0x185000.bin",
+      "disassembly": "不透明执行页_0x185000_反汇编.txt",
+      "sha256": "8b98cdad5089252cf7487f91e61864a0406e1eac77fde538c73422cde3915ad3",
+      "bytes": 8192,
+      "decoded_instructions": 1
+    }
+  ],
+  "missing_artifact": {
+    "name": "post-pass .uyB",
+    "state": "尚未捕获",
+    "reason": "只在自然/forced pass后的短暂运行窗口生成，当前没有可诚实写入的字节"
+  }
+}

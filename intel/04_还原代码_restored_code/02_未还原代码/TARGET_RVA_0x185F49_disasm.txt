@@ -1,0 +1,45 @@
+RVA 00185F49  mov       qword ptr [rsp + 8], 0x3002ced3
+RVA 00185F52  lea       rsp, [rsp + 8]
+RVA 00185F57  call      0x7ff737bb1868
+RVA 00185F5C  push      rdx
+RVA 00185F5D  pushfq    
+RVA 00185F5E  movabs    rdx, 0xe62864ac1dae3db4
+RVA 00185F68  bswap     edx
+RVA 00185F6A  bswap     edx
+RVA 00185F6C  push      r8
+RVA 00185F6E  mov       qword ptr [rsp + 0x18], 0x17088171
+RVA 00185F77  mov       rdx, qword ptr [rsp + rdx*4 - 0x76b8f6c0]
+RVA 00185F7F  call      0x7ff7378b7d30
+RVA 00185F84  add       qword ptr [rsp], -0x401b9eb4
+RVA 00185F8D  push      qword ptr [rsp + 0x10]
+RVA 00185F91  popfq     
+RVA 00185F92  lea       rsp, [rsp + 0x18]
+RVA 00185F97  call      0x7ff737b7908c
+RVA 00185F9C  bswap     r9
+RVA 00185F9F  mov       qword ptr [rsp + 0x20], 0x4baf15fe
+RVA 00185FA8  mov       r9, qword ptr [rsp + 0x18]
+RVA 00185FAD  push      qword ptr [rsp + 0x10]
+RVA 00185FB1  popfq     
+RVA 00185FB2  lea       rsp, [rsp + 0x20]
+RVA 00185FB7  call      0x7ff737bd072b
+RVA 00185FBC  fsubr     dword ptr [rax]
+RVA 00185FBE  and       byte ptr [rdx + 0x4f43f843], bh
+RVA 00185FC4  sub       edi, edx
+RVA 00185FC6  sbb       bl, bl
+RVA 00185FC8  and       ecx, dword ptr [rdi + 0x2b]
+RVA 00185FCB  cli       
+RVA 00185FCC  pop       rax
+RVA 00185FCD  mov       eax, dword ptr [rbx - 0x705d4b1]
+RVA 00185FD3  ret       
+RVA 00185FD4  fisttp    dword ptr [rdi + 0x2b]
+RVA 00185FD7  cli       
+RVA 00185FD8  or        dword ptr [rax], 0xffffffab
+RVA 00185FDB  sub       r15, r10
+RVA 00185FDE  xchg      ebx, eax
+RVA 00185FDF  add       edx, dword ptr [rbx + 0x4f]
+RVA 00185FE2  sub       edi, edx
+RVA 00185FE4  or        esp, dword ptr [rax - 0x5d4b0d5]
+RVA 00185FEA  jae       0x7ff737895f7f
+RVA 00185FEC  nop       
+RVA 00185FED  xor       al, 0xee
+RVA 00185FEF  sbb       eax, 0xb154b93a
